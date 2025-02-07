@@ -26,6 +26,7 @@ namespace Examination_system
                 if (Answer[i] == ExamQuestion[i].Answer[rightanswerId - 1].Id) 
                     StudentMark += ExamQuestion[i].Mark;
                 
+
                 TotalMark += ExamQuestion[i].Mark;
             }
             Console.WriteLine($"Your Grade is {StudentMark} from {TotalMark}");

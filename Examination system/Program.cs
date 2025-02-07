@@ -20,9 +20,6 @@ namespace Examination_system
                 Console.WriteLine($"Time = {timer.Elapsed}");
                 Console.WriteLine("Thank You!");
             }
-            else
-                Environment.Exit(0);
-
 
         }
     }

@@ -30,8 +30,6 @@ namespace Examination_system
                 TotalMark += ExamQuestion[i].Mark;
             }
             Console.WriteLine($"Your Grade is {StudentMark} from {TotalMark}");
-
-
         }
     }
 }
